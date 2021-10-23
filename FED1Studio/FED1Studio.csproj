@@ -93,6 +93,7 @@
     <Content Include="images\pexels-olia-danilevich-5313161.jpg" />
     <Content Include="images\twitter-logo-white-circle-png-images-23.png" />
     <Content Include="index.html" />
+    <Content Include="js\lightbox.js" />
     <Content Include="Team.html" />
     <Content Include="test2.html" />
     <Content Include="Web.config" />
@@ -111,7 +112,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="fonts\" />
-    <Folder Include="js\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
