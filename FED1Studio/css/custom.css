@@ -27,6 +27,13 @@ main {
     background-color: white;
 }
 
+p {
+    color: rgb(62,85,101);
+    font-size: 14px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
 h1 {
     color: rgb(62,85,101);
     font-size: 24px;
@@ -42,6 +49,15 @@ h2 {
 h3 {
     color: #404040;
     text-decoration: none;
+    padding: 2%;
+}
+
+h5 {
+    color: #404040;
+    text-decoration: none;
+    margin-left: 100px;
+    margin-right: 50px;
+    font-size: 20px;
 }
 
 h6 {
@@ -632,6 +648,7 @@ aside h2 {
 #rightColumn {
     width: 29%;
     float: right;
+    padding: 50px;
 }
 
 aside h2 {
@@ -727,16 +744,9 @@ a#leadership h2 {
 .pic1 {
     width: 80px;
     height: 80px;
-    position: relative;
+    float: left;
     overflow: hidden;
     border-radius: 50%;
-}
-
-/*
-.profile-pic {
-    display: block;
-    margin: 0 auto;
-    width: auto;*/
 }
 /*#endregion */
 

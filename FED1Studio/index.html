@@ -145,37 +145,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- jQueryUI JS File from the website goes below the jQuery (they need to work in order from top down) -->
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
-    <!-- Datatables.net script link -->
-    <script src="//cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
     <!-- The below file houses all of our jQuery code. -->
     <script src="js/jquerycode.js"></script>
-
-    <!-- The JavaScript files in an HTML file are listed in order of dependencies. Bootstrap.min.js needs jQuery to load in before it can load because it uses jQuery code. So we order our scripts in order of dependency. -->
-    <!-- The below function is what toggles the hamburger menu opened/closed. -->
-    <script>
-        //In between these script tags, we are in JS mode.
-        function toggleNav() {
-            //Capture the ul#nav-list and toggle the expanded class upon click
-            let navList = document.getElementById('nav-list');
-            navList.classList.toggle('expanded');
-
-            //Below will toggle that Hamburger menu icon and a close icon
-            let btnMenu = document.getElementById('menu-btn');
-            if (navList.classList.contains('expanded')) {
-                btnMenu.innerHTML = "&times;"
-            }
-            else {
-                btnMenu.innerHTML = "&#9776;"
-            }
-        }
-    </script>
-
-    <!-- Below is the function call from jQueryUI.com -->
-    <script>
-        $(function () {
-            //This is the Datatables function call from Datatables.net
-            $('#simpleTable').DataTable();
-        });</script>
-
 </body>
 </html>
