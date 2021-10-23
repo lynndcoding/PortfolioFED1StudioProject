@@ -67,9 +67,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="classes.html" />
+    <Content Include="Classes.html" />
     <Content Include="css\custom.css" />
+    <Content Include="images\10hs.jpg" />
+    <Content Include="images\11hs.jpg" />
+    <Content Include="images\12hs.jpg" />
+    <Content Include="images\1hs1.jpg" />
+    <Content Include="images\2hs.jpg" />
+    <Content Include="images\3hs.jpg" />
+    <Content Include="images\4hs.jpg" />
+    <Content Include="images\5hs.jpg" />
+    <Content Include="images\6hs.jpg" />
+    <Content Include="images\7hs.jpg" />
+    <Content Include="images\8hs8.jpg" />
+    <Content Include="images\9hs.jpg" />
+    <Content Include="images\bkgd.jpg" />
+    <Content Include="images\centriqISH-01.png" />
+    <Content Include="images\domore.jpg" />
+    <Content Include="images\facebook.png" />
+    <Content Include="images\instagram.png" />
+    <Content Include="images\linkedin_logo.png" />
+    <Content Include="images\markus-spiske-507983-unsplash.jpg" />
+    <Content Include="images\pankaj-patel-561360-unsplash.jpg" />
+    <Content Include="images\pexels-jopwell-2422293.jpg" />
+    <Content Include="images\pexels-olia-danilevich-5313161.jpg" />
+    <Content Include="images\twitter-logo-white-circle-png-images-23.png" />
     <Content Include="index.html" />
+    <Content Include="Team.html" />
     <Content Include="test2.html" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -87,7 +111,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="fonts\" />
-    <Folder Include="images\" />
     <Folder Include="js\" />
   </ItemGroup>
   <PropertyGroup>
