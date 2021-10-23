@@ -9,15 +9,7 @@
 /*#endregion*/
 
 /*#region Initial Styling*/
-.contact {
-    background-repeat: no-repeat;
-    background-image: url('../images/bkgd.jpg');
-    background-color: hsla(0, 100%, 90%, 0.3);
-    height: 500px; /* You must set a specified height */
-    background-size: cover;
-    background-position-x: left;
-    background-position-y: top;
-    width: 75%;
+body {
 }
 
 container {
@@ -28,23 +20,11 @@ container {
 }
 
 main {
-    background-color: whitesmoke;
-    padding: 0px 25px 535px 25px;
+    /*background-color: whitesmoke;*/
+    padding-top: 0px;
+    padding-bottom: 535px;
     box-sizing: border-box;
-}
-
-*, *:before, *:after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    color: #404040;
-}
-
-#top {
-    color: rgb(255,87,51);
+    background-color: white;
 }
 
 h1 {
@@ -87,7 +67,6 @@ footer {
 .logo img {
     height: 10%;
     width: 10%;
-    align-content: flex-start;
     float: left;
     padding: 6px;
 }
@@ -168,7 +147,7 @@ div.iconItem4 {
 .iconItem8 {
     display: inline-block;
     text-align: right;
-    /*padding: 7px 7px;*/
+    padding: 7px 7px;
     position: absolute;
     width: 25px;
     height: 25px;
@@ -182,6 +161,8 @@ div.iconItem1:hover {
     border-radius: 50px;
     border-color: #96f3fa;
     padding: 7px 7px;
+    margin-top: 7px;
+    margin-left: 7px;
 }
 
 div.iconItem2:hover {
@@ -234,10 +215,12 @@ div.iconItem7:hover {
 
 div.iconItem8:hover {
     display: inline-block;
-    background-color: rgb(255,87,51);
-    border: groove;
-    border-radius: 25px;
-    border-color: #96f3fa;
+    text-align: right;
+    padding: 7px 7px;
+    position: absolute;
+    */ width: 25px;
+    height: 25px;
+    right: 10px;
 }
 
 div.iconItem::after {
@@ -292,6 +275,54 @@ nav ul li {
         display: block;
         height: 100%;
     }
+
+/*#region Hamburger Menu */
+/*Styling for Hamburger Menu*/
+nav a.pull-right {
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: none;
+}
+
+/*Below is a CSS media query that checks the size of the viewport and applies the styling inside of its scopes at a specific screen size.*/
+@media screen and (max-width: 850px) {
+    nav ul#nav-list {
+        display: none;
+    }
+
+    nav a.pull-right {
+        display: inline-block;
+    }
+
+    /* .expanded is added to #nav-list when the hamburger button is clicked. This CSS will 'expand' the menu.*/
+    nav ul#nav-list.expanded {
+        float: none;
+        clear: both;
+        display: block;
+    }
+
+        nav ul#nav-list.expanded li {
+            display: block;
+        }
+
+            nav ul#nav-list.expanded li a {
+                display: block; /* This will make the clickable area for the a tag stretch the full width of the menu. */
+                float: none;
+                text-align: center; /*centers the link in the menu*/
+                position: static;
+            }
+
+    nav li.dropdown ul.dropdown-menu {
+        width: 50%;
+        float: none;
+        margin: auto;
+        position: static;
+    }
+}
+/*#endregion*/
 /*#endregion*/
 
 /*#region Index Page*/
@@ -383,8 +414,7 @@ header p {
 }
 
 div.iconItem1 {
-    display: inline-block;
-    text-align: right;
+    display: inline;
     padding: 7px 7px;
     position: absolute;
     width: 25px;
@@ -395,7 +425,6 @@ div.iconItem1 {
 
 div.iconItem2 {
     display: inline-block;
-    text-align: right;
     padding: 7px 7px;
     position: absolute;
     width: 25px;
@@ -406,7 +435,6 @@ div.iconItem2 {
 
 div.iconItem3 {
     display: inline-block;
-    text-align: right;
     padding: 7px 7px;
     position: absolute;
     width: 25px;
@@ -417,7 +445,6 @@ div.iconItem3 {
 
 div.iconItem4 {
     display: inline-block;
-    text-align: right;
     padding: 7px 7px;
     position: absolute;
     width: 25px;
@@ -428,7 +455,6 @@ div.iconItem4 {
 
 .iconItem5 {
     display: inline-block;
-    text-align: right;
     padding: 7px 7px;
     position: absolute;
     width: 25px;
@@ -438,7 +464,6 @@ div.iconItem4 {
 
 .iconItem6 {
     display: inline-block;
-    text-align: right;
     padding: 7px 7px;
     position: absolute;
     width: 25px;
@@ -466,12 +491,13 @@ div.iconItem4 {
     right: 10px;
 }
 
-div.iconItem1:hover {
+div.iconItem:hover {
     display: inline-block;
     background-color: rgb(255,87,51);
     border: groove;
-    border-radius: 25px;
+    border-radius: 50px;
     border-color: #96f3fa;
+    padding: 7px 7px;
 }
 
 div.iconItem2:hover {
@@ -580,8 +606,6 @@ aside h2 {
     padding: 2%;
 }
 
-/*#region Images*/
-/*Images*/
 /*positioning a single image through CSS*/
 #headerOverlay {
     background-image: url('../images/centriqISH-72dpi.jpg');
@@ -590,7 +614,6 @@ aside h2 {
     background-position: 3% center;
     padding: 2em;
 }
-/*#endregion*/
 /*#endregion*/
 
 /*#region Columns*/
@@ -684,7 +707,6 @@ table#simpleTable {
 }
 
 .deets {
-    padding: 20px;
     font-size: 20px;
     text-decoration: none;
     border-top: 1px inset darkgrey;
@@ -697,6 +719,7 @@ table#simpleTable {
 a#leadership h2 {
     text-decoration: none;
 }
+/*#endregion*/
 
 /*#region ImageCrop*/
 /*Image cropping on Teams page*/
@@ -716,7 +739,6 @@ a#leadership h2 {
     width: auto;*/
 }
 /*#endregion */
-/*#endregion*/
 
 /*#region Lightbox*/
 /*Styling for lightbox image gallery*/
@@ -748,21 +770,3 @@ a#leadership h2 {
     height: 25%;
 }
 /*#endregion*/
-
-/*#region Hamburger Menu*/
-/*Styling for the Hamburger Menu*/
-nav a.pull-right {
-    font-weight: bold;
-    color: #fff;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 1.5em;
-    display: none;
-}
-
-a#menu-btn {
-    text-decoration: none;
-}
-/*#endregion
-
-*/
