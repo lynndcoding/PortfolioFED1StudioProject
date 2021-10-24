@@ -30,9 +30,8 @@ container {
 }
 
 main {
-    /*background-color: whitesmoke;*/
     padding-top: 0px;
-    padding-bottom: 535px;
+    padding-bottom: 800px;
     box-sizing: border-box;
     background-color: white;
 }
@@ -381,20 +380,23 @@ div choose {
 
 .w51 {
     float: left;
-    padding: 25px;
-    width: 50%;
+    width: 48%;
+    margin: 15px;
 }
 
 .choose h4 {
     vertical-align: middle;
     width: 100%;
+    margin: 0px, 25px;
+    padding: 25px;
 }
 
 .w52 {
     float: right;
     top: 0;
     align-content: space-around;
-    width: 50%
+    width: 48%;
+    margin: 15px;
 }
 /*#endregion*/
 
