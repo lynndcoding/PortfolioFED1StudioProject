@@ -9,6 +9,16 @@
 /*#endregion*/
 
 /*#region Initial Styling*/
+.contact {
+    background-repeat: no-repeat;
+    background-image: url('../images/bkgd.jpg');
+    background-color: hsla(0, 100%, 90%, 0.3);
+    height: 500px; /* You must set a specified height */
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: top;
+    width: 75%;
+}
 body {
 }
 
