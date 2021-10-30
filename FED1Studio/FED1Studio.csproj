@@ -92,12 +92,14 @@
     <Content Include="images\greg-rakozy-129733-unsplash.jpg" />
     <Content Include="images\group-windows-p74ndnYWRY4-unsplash.jpg" />
     <Content Include="images\hitesh-choudhary-562332-unsplash.jpg" />
+    <Content Include="images\hw-centriq.png" />
     <Content Include="images\instagram.png" />
     <Content Include="images\linkedin_logo.png" />
     <Content Include="images\markus-spiske-507983-unsplash.jpg" />
     <Content Include="images\pankaj-patel-561360-unsplash.jpg" />
     <Content Include="images\pexels-jopwell-2422293.jpg" />
     <Content Include="images\pexels-olia-danilevich-5313161.jpg" />
+    <Content Include="images\reqs.png" />
     <Content Include="images\twitter-logo-white-circle-png-images-23.png" />
     <Content Include="index.html" />
     <Content Include="js\lightbox.js" />

@@ -400,6 +400,22 @@ div choose {
 }
 /*#endregion*/
 
+/*#region Homework page*/
+/*Styling for Homework page*/
+.w53 {
+    float: left;
+    width: 48%;
+    margin: 15px;
+}
+
+.w54 {
+    float: left;
+    width: 48%;
+    margin: 15px;
+}
+/*#endregion*/
+
+
 /*#region Page Banner*/
 /*Styling for banner consistent across all pages */
 
