@@ -70,6 +70,7 @@
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
     <Content Include="css\custom.css" />
+    <Content Include="Homework.html" />
     <Content Include="images\10hs.jpg" />
     <Content Include="images\11hs.jpg" />
     <Content Include="images\12hs.jpg" />
@@ -110,6 +111,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\Default Settings.pubxml" />
+    <None Include="Properties\PublishProfiles\Default Settings1.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
